@@ -1,11 +1,11 @@
 nrf51-dfu-ble-S130
 ==================
 
-Dual Bank DFU over BLE (nRF51, S130 alpha 0.5)
+Dual Bank DFU over BLE (nRF51, S130 alpha 0.9)
 
 Based on the dual bank BLE bootloader example in SDKv6.1
 
-Modification added to make the example works with S130 alpha 0.5:
+Modification added to make the example works with S130 alpha 0.9:
 
 - Use API include headers from S130 (the "include" folder).
 
@@ -13,18 +13,18 @@ Modification added to make the example works with S130 alpha 0.5:
 
 - Update sd_ble_gap_sec_params_reply()
 
-- Removed is_cccd_configured() (bug with current S130 alpha version)
-
 - Updated IRAM1 location and size
 
-Softdevice & bootloader update is supported, but softdevice size would not be changed. It's a bug with current version of the softdevice.
+Softdevice & bootloader update is supported
 
-Tested with Android nRFToolbox, nRFMaster Control Panel, iOS nRFToolbox
+The example was made to support debugging (optimization level set to 0 ), the bootloader address was moved down to cope with the bigger size of the bootloader when compiling without optimization. 
+
+Tested with Android nRFToolbox, nRFMaster Control Panel
 
 Requirements
 ------------
 - nRF51 SDK version 6.1
-- S130 v0.5 alpha
+- S130 v0.9 alpha
 - nRF51822 Development Kit version 2.1.0 or later
 
 The project may need modifications to work with other versions or other boards. 

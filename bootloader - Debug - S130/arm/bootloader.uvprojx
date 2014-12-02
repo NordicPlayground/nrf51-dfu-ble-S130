@@ -429,9 +429,62 @@
               <FilePath>.\..\main.c</FilePath>
             </File>
             <File>
+              <FileName>dfu_dual_bank.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_dual_bank.c</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>0</IncludeInBuild>
+                  <AlwaysBuild>2</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>1</ComprImg>
+                </CommonProperty>
+                <FileArmAds>
+                  <Cads>
+                    <interw>2</interw>
+                    <Optim>0</Optim>
+                    <oTime>2</oTime>
+                    <SplitLS>2</SplitLS>
+                    <OneElfS>2</OneElfS>
+                    <Strict>2</Strict>
+                    <EnumInt>2</EnumInt>
+                    <PlainCh>2</PlainCh>
+                    <Ropi>2</Ropi>
+                    <Rwpi>2</Rwpi>
+                    <wLevel>2</wLevel>
+                    <uThumb>2</uThumb>
+                    <uSurpInc>2</uSurpInc>
+                    <uC99>2</uC99>
+                    <useXO>2</useXO>
+                    <VariousControls>
+                      <MiscControls></MiscControls>
+                      <Define></Define>
+                      <Undefine></Undefine>
+                      <IncludePath></IncludePath>
+                    </VariousControls>
+                  </Cads>
+                </FileArmAds>
+              </FileOption>
+            </File>
+            <File>
               <FileName>dfu_single_bank.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_single_bank.c</FilePath>
+            </File>
+            <File>
+              <FileName>bootloader.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\Source\bootloader_dfu\bootloader.c</FilePath>
             </File>
             <File>
               <FileName>bootloader_util_arm.c</FileName>
@@ -442,16 +495,6 @@
               <FileName>bootloader_settings_arm.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\bootloader_dfu\bootloader_settings_arm.c</FilePath>
-            </File>
-            <File>
-              <FileName>dfu_dual_bank.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dfu_dual_bank.c</FilePath>
-            </File>
-            <File>
-              <FileName>bootloader.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\bootloader.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -512,11 +555,6 @@
               <FileName>nrf_delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\nrf_delay\nrf_delay.c</FilePath>
-            </File>
-            <File>
-              <FileName>ble_debug_assert_handler.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\Source\ble\ble_debug_assert_handler.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -584,6 +622,11 @@
           </GroupOption>
           <Files>
             <File>
+              <FileName>dfu_transport_ble.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_transport_ble.c</FilePath>
+            </File>
+            <File>
               <FileName>ble_conn_params.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_conn_params.c</FilePath>
@@ -597,11 +640,6 @@
               <FileName>ble_srv_common.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c</FilePath>
-            </File>
-            <File>
-              <FileName>dfu_transport_ble.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dfu_transport_ble.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1055,6 +1093,11 @@
               <FilePath>.\..\main.c</FilePath>
             </File>
             <File>
+              <FileName>dfu_dual_bank.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_dual_bank.c</FilePath>
+            </File>
+            <File>
               <FileName>dfu_single_bank.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_single_bank.c</FilePath>
@@ -1103,6 +1146,11 @@
               </FileOption>
             </File>
             <File>
+              <FileName>bootloader.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\Source\bootloader_dfu\bootloader.c</FilePath>
+            </File>
+            <File>
               <FileName>bootloader_util_arm.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\bootloader_dfu\bootloader_util_arm.c</FilePath>
@@ -1111,16 +1159,6 @@
               <FileName>bootloader_settings_arm.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\bootloader_dfu\bootloader_settings_arm.c</FilePath>
-            </File>
-            <File>
-              <FileName>dfu_dual_bank.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dfu_dual_bank.c</FilePath>
-            </File>
-            <File>
-              <FileName>bootloader.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\bootloader.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1181,11 +1219,6 @@
               <FileName>nrf_delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\nrf_delay\nrf_delay.c</FilePath>
-            </File>
-            <File>
-              <FileName>ble_debug_assert_handler.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\Source\ble\ble_debug_assert_handler.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1253,6 +1286,11 @@
           </GroupOption>
           <Files>
             <File>
+              <FileName>dfu_transport_ble.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_transport_ble.c</FilePath>
+            </File>
+            <File>
               <FileName>ble_conn_params.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_conn_params.c</FilePath>
@@ -1266,11 +1304,6 @@
               <FileName>ble_srv_common.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c</FilePath>
-            </File>
-            <File>
-              <FileName>dfu_transport_ble.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dfu_transport_ble.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1660,7 +1693,7 @@
               <MiscControls>--c99</MiscControls>
               <Define>NRF51,DEBUG_NRF_USER,BOARD_NRF6310, BOOTLOADER_BANKED BLE_STACK_SUPPORT_REQD</Define>
               <Undefine></Undefine>
-              <IncludePath>..;..\include;..\..\..\..\..\Include\bootloader_dfu_Debug;..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport;..\..\..\..\..\Include;..\..\..\..\..\Include\sd_common;..\..\..\..\..\Include\app_common;..\..\..\..\..\Include\ble;..\..\..\..\..\Include\ble\ble_services;..\include\S130_mbr</IncludePath>
+              <IncludePath>..;..\include;..\..\..\..\..\Include\bootloader_dfu_Debug;..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport;..\..\..\..\..\Include;..\..\..\..\..\Include\sd_common;..\..\..\..\..\Include\app_common;..\..\..\..\..\Include\ble;..\..\..\..\..\Include\ble\ble_services;..\include\S130v0_9</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1724,6 +1757,11 @@
               <FilePath>.\..\main.c</FilePath>
             </File>
             <File>
+              <FileName>dfu_dual_bank.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_dual_bank.c</FilePath>
+            </File>
+            <File>
               <FileName>dfu_single_bank.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_single_bank.c</FilePath>
@@ -1772,6 +1810,11 @@
               </FileOption>
             </File>
             <File>
+              <FileName>bootloader.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\Source\bootloader_dfu\bootloader.c</FilePath>
+            </File>
+            <File>
               <FileName>bootloader_util_arm.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\bootloader_dfu\bootloader_util_arm.c</FilePath>
@@ -1780,16 +1823,6 @@
               <FileName>bootloader_settings_arm.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\bootloader_dfu\bootloader_settings_arm.c</FilePath>
-            </File>
-            <File>
-              <FileName>dfu_dual_bank.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dfu_dual_bank.c</FilePath>
-            </File>
-            <File>
-              <FileName>bootloader.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\bootloader.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1851,16 +1884,16 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\nrf_delay\nrf_delay.c</FilePath>
             </File>
-            <File>
-              <FileName>ble_debug_assert_handler.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\Source\ble\ble_debug_assert_handler.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>BLE Transport</GroupName>
           <Files>
+            <File>
+              <FileName>dfu_transport_ble.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_transport_ble.c</FilePath>
+            </File>
             <File>
               <FileName>ble_conn_params.c</FileName>
               <FileType>1</FileType>
@@ -1875,11 +1908,6 @@
               <FileName>ble_srv_common.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c</FilePath>
-            </File>
-            <File>
-              <FileName>dfu_transport_ble.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\dfu_transport_ble.c</FilePath>
             </File>
           </Files>
         </Group>

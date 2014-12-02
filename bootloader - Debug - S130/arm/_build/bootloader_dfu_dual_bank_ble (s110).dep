@@ -1,475 +1,0 @@
-Dependencies for Project 'bootloader', Target 'dfu_dual_bank_ble (s110)': (DO NOT MODIFY !)
-F (.\..\..\..\..\..\Source\templates\system_nrf51.c)(0x54007D3C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-F (..\arm_startup_nrf51.s)(0x54007D1C)(--cpu Cortex-M0 -g --apcs=interwork -I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "NRF51 SETA 1"--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
-F (.\..\main.c)(0x54789410)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu_transport.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu_types.h)(0x54788F16)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_util.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\include\S130_mbr\nrf_soc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error_soc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-I (..\include\S130_mbr\ble.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_ranges.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_types.h)(0x53B11030)
-I (..\include\S130_mbr\ble_gap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_l2cap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_err.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatt.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gattc.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatts.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_hci.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_gpiote.h)(0x54007D1C)
-I (..\..\..\..\..\Include\boards.h)(0x54007D1C)
-I (..\..\..\..\..\Include\boards/nrf6310.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_debug_assert_handler.h)(0x54007D1C)
-I (..\..\..\..\..\Include\sd_common\softdevice_handler.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (..\include\S130_mbr\nrf_sdm.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error_sdm.h)(0x53B1102E)
-I (..\..\..\..\..\Include\sd_common\ble_stack_handler_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\sd_common\ant_stack_handler_types.h)(0x54007D1C)
-I (..\include\pstorage_platform.h)(0x54007D1C)
-I (..\include\S130_mbr\nrf_mbr.h)(0x534D520C)
-F (..\..\..\..\..\Source\bootloader_dfu\dfu_single_bank.c)(0x54007D1C)()
-F (..\..\..\..\..\Source\bootloader_dfu\bootloader_util_arm.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\bootloader_util_arm.o --omf_browse .\_build\bootloader_util_arm.crf --depend .\_build\bootloader_util_arm.d)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_util.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_types.h)(0x54007D1C)
-F (..\..\..\..\..\Source\bootloader_dfu\bootloader_settings_arm.c)(0x54182281)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\bootloader_settings_arm.o --omf_browse .\_build\bootloader_settings_arm.crf --depend .\_build\bootloader_settings_arm.d)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_settings.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu_types.h)(0x54788F16)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-F (..\dfu_dual_bank.c)(0x54788EDC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\dfu_dual_bank.o --omf_browse .\_build\dfu_dual_bank.crf --depend .\_build\dfu_dual_bank.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu.h)(0x54367C0F)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu_types.h)(0x54788F16)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu_bank_internal.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\include\S130_mbr\nrf_sdm.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_soc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error_soc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error_sdm.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_flash.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader.h)(0x54007D1C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\crc16.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\pstorage.h)(0x54007D1C)
-I (..\include\pstorage_platform.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-I (..\include\S130_mbr\nrf_mbr.h)(0x534D520C)
-F (..\bootloader.c)(0x54788F04)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\bootloader.o --omf_browse .\_build\bootloader.crf --depend .\_build\bootloader.d)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu_types.h)(0x54788F16)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_settings.h)(0x54007D1C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu.h)(0x54367C0F)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu_transport.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_sdm.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_soc.h)(0x53B1102E)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\include\S130_mbr\nrf_error_soc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error_sdm.h)(0x53B1102E)
-I (..\..\..\..\..\Include\ble\ble_flash.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\crc16.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\pstorage.h)(0x54007D1C)
-I (..\include\pstorage_platform.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_delay.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-F (..\ble_dfu.c)(0x547C6D4F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\ble_dfu.o --omf_browse .\_build\ble_dfu.crf --depend .\_build\ble_dfu.d)
-I (..\..\..\..\..\Include\ble\ble_services\ble_dfu.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\include\S130_mbr\ble_gatts.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_types.h)(0x53B11030)
-I (..\include\S130_mbr\ble_ranges.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_l2cap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_err.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatt.h)(0x53B1102E)
-I (..\include\S130_mbr\ble.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gattc.h)(0x53B1102E)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419E3CA)
-F (..\..\..\..\..\Source\app_common\hci_mem_pool.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\hci_mem_pool.o --omf_browse .\_build\hci_mem_pool.crf --depend .\_build\hci_mem_pool.d)
-I (..\..\..\..\..\Include\app_common\hci_mem_pool.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport\hci_mem_pool_internal.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-F (..\..\..\..\..\Source\app_common\app_timer.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\include\S130_mbr\nrf_soc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error_soc.h)(0x53B1102E)
-I (..\..\..\..\..\Include\nrf_delay.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\sd_common\app_util_platform.h)(0x54007D1C)
-F (..\..\..\..\..\Source\app_common\app_scheduler.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\app_scheduler.o --omf_browse .\_build\app_scheduler.crf --depend .\_build\app_scheduler.d)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\include\S130_mbr\nrf_soc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\include\S130_mbr\nrf_error_soc.h)(0x53B1102E)
-I (..\..\..\..\..\Include\nrf_assert.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\sd_common\app_util_platform.h)(0x54007D1C)
-F (..\..\..\..\..\Source\app_common\app_gpiote.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\app_gpiote.o --omf_browse .\_build\app_gpiote.crf --depend .\_build\app_gpiote.d)
-I (..\..\..\..\..\Include\app_common\app_gpiote.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\sd_common\app_util_platform.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-F (..\..\..\..\..\Source\app_common\crc16.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\crc16.o --omf_browse .\_build\crc16.crf --depend .\_build\crc16.d)
-I (..\..\..\..\..\Include\app_common\crc16.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-F (..\..\..\..\..\Source\sd_common\softdevice_handler.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\softdevice_handler.o --omf_browse .\_build\softdevice_handler.crf --depend .\_build\softdevice_handler.d)
-I (..\..\..\..\..\Include\sd_common\softdevice_handler.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\include\S130_mbr\nrf_sdm.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\include\S130_mbr\nrf_soc.h)(0x53B1102E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\include\S130_mbr\nrf_error_soc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error_sdm.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\sd_common\ble_stack_handler_types.h)(0x54007D1C)
-I (..\include\S130_mbr\ble.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_ranges.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_types.h)(0x53B11030)
-I (..\include\S130_mbr\ble_gap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_l2cap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_err.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatt.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gattc.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatts.h)(0x53B1102E)
-I (..\..\..\..\..\Include\sd_common\ant_stack_handler_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_assert.h)(0x54007D1C)
-F (..\..\..\..\..\Source\app_common\pstorage.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\pstorage.o --omf_browse .\_build\pstorage.crf --depend .\_build\pstorage.d)
-I (..\..\..\..\..\Include\app_common\pstorage.h)(0x54007D1C)
-I (..\include\pstorage_platform.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\..\..\..\..\Include\nrf_assert.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\include\S130_mbr\nrf_soc.h)(0x53B1102E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error_soc.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-F (..\..\..\..\..\Source\app_common\app_button.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\app_button.o --omf_browse .\_build\app_button.crf --depend .\_build\app_button.d)
-I (..\..\..\..\..\Include\app_common\app_button.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_gpiote.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-F (..\..\..\..\..\Source\nrf_delay\nrf_delay.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf_delay.h)(0x54007D1C)
-F (..\..\..\..\..\Source\ble\ble_debug_assert_handler.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\ble_debug_assert_handler.o --omf_browse .\_build\ble_debug_assert_handler.crf --depend .\_build\ble_debug_assert_handler.d)
-I (..\..\..\..\..\Include\ble\ble_debug_assert_handler.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\ble\ble_error_log.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\ble\ble_flash.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-F (..\..\..\..\..\Source\ble\ble_conn_params.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
-I (..\..\..\..\..\Include\ble\ble_conn_params.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\include\S130_mbr\ble.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_ranges.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_types.h)(0x53B11030)
-I (..\include\S130_mbr\ble_gap.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_l2cap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_err.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatt.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gattc.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatts.h)(0x53B1102E)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\include\S130_mbr\ble_hci.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-F (..\..\..\..\..\Source\ble\ble_advdata.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
-I (..\..\..\..\..\Include\ble\ble_advdata.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\include\S130_mbr\ble.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_ranges.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_types.h)(0x53B11030)
-I (..\include\S130_mbr\ble_gap.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_l2cap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_err.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatt.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gattc.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatts.h)(0x53B1102E)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-F (..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c)(0x54007D1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\include\S130_mbr\ble_types.h)(0x53B11030)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\include\S130_mbr\ble_gap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_ranges.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatt.h)(0x53B1102E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-F (..\dfu_transport_ble.c)(0x54788EDC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --enum_is_int -I.. -I..\include -I..\..\..\..\..\Include\bootloader_dfu_Debug -I..\..\..\..\..\Include\bootloader_dfu_Debug\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\include\S130_mbr --c99-I "C:\Nordic Semiconductor\Misc\Training\51822\nrf51822v6_1\Board\nrf6310\device_firmware_updates\bootloader - Debug - S130\arm\RTE"-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD-o .\_build\dfu_transport_ble.o --omf_browse .\_build\dfu_transport_ble.crf --depend .\_build\dfu_transport_ble.d)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu_transport.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu.h)(0x54367C0F)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\dfu_types.h)(0x54788F16)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53467FC4)
-I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53467FC4)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5419E3CA)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\include\S130_mbr\nrf_sdm.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_svc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_soc.h)(0x53B1102E)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\include\S130_mbr\nrf_error_soc.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error.h)(0x53B1102E)
-I (..\include\S130_mbr\nrf_error_sdm.h)(0x53B1102E)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\sd_common\softdevice_handler.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (..\..\..\..\..\Include\sd_common\ble_stack_handler_types.h)(0x54007D1C)
-I (..\include\S130_mbr\ble.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_ranges.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_types.h)(0x53B11030)
-I (..\include\S130_mbr\ble_gap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_l2cap.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_err.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatt.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gattc.h)(0x53B1102E)
-I (..\include\S130_mbr\ble_gatts.h)(0x53B1102E)
-I (..\..\..\..\..\Include\sd_common\ant_stack_handler_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_advdata.h)(0x54007D1C)
-I (..\include\S130_mbr\ble_hci.h)(0x53B1102E)
-I (..\..\..\..\..\Include\boards.h)(0x54007D1C)
-I (..\..\..\..\..\Include\boards/nrf6310.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_services\ble_dfu.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\ble\ble_flash.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_conn_params.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\hci_mem_pool.h)(0x54007D1C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader.h)(0x54007D1C)
-I (..\..\..\..\..\Include\bootloader_dfu_Debug\bootloader_types.h)(0x54007D1C)
-F (..\..\..\..\..\Source\bootloader_dfu\dfu_transport_serial.c)(0x54007D1C)()
-F (..\..\..\..\..\Source\app_common\hci_transport.c)(0x54007D1C)()
-F (..\..\..\..\..\Source\app_common\hci_slip.c)(0x54007D1C)()
-F (..\..\..\..\..\Source\app_common\app_uart.c)(0x54007D1C)()

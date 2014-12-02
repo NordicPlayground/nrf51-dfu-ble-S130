@@ -88,11 +88,9 @@ void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t * p
     //                The flash write will happen EVEN if the radio is active, thus interrupting
     //                any communication.
     //                Use with care. Un-comment the line below to use.
-     ble_debug_assert_handler(error_code, line_num, p_file_name);
+    // ble_debug_assert_handler(error_code, line_num, p_file_name);
 
     // On assert, the system can only recover on reset.
-		
-		while(1);
     NVIC_SystemReset();
 }
 
@@ -188,26 +186,26 @@ static void sys_evt_dispatch(uint32_t event)
 static void ble_stack_init(bool init_softdevice)
 {
     uint32_t         err_code;
-    sd_mbr_command_t com = {SD_MBR_START_SD, };
+    sd_mbr_command_t com = {SD_MBR_COMMAND_INIT_SD, };
 
-   /* if (init_softdevice)
-    {*/
+    if (init_softdevice)
+    {
         err_code = sd_mbr_command(&com);
         APP_ERROR_CHECK(err_code);
-  //  }
+    }
     
-    err_code = sd_softdevice_forward_to_application(BOOTLOADER_REGION_START);
+    err_code = sd_softdevice_vector_table_base_set(BOOTLOADER_REGION_START);
     APP_ERROR_CHECK(err_code);
    
     SOFTDEVICE_HANDLER_INIT(NRF_CLOCK_LFCLKSRC_XTAL_20_PPM, true);
 
     // Enable BLE stack 
-  /*  ble_enable_params_t ble_enable_params;
+    ble_enable_params_t ble_enable_params;
     memset(&ble_enable_params, 0, sizeof(ble_enable_params));
     ble_enable_params.gatts_enable_params.service_changed = IS_SRVC_CHANGED_CHARACT_PRESENT;
     err_code = sd_ble_enable(&ble_enable_params);
     APP_ERROR_CHECK(err_code);
-    */
+    
     err_code = softdevice_sys_evt_handler_set(sys_evt_dispatch);
     APP_ERROR_CHECK(err_code);
 }

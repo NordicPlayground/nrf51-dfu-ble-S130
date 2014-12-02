@@ -173,14 +173,15 @@ static void on_connect(ble_dfu_t * p_dfu, ble_evt_t * p_ble_evt)
 static bool is_cccd_configured(ble_dfu_t * p_dfu)
 {
     // Check if the CCCDs are configured.
-    uint16_t cccd_len = BLE_CCCD_VALUE_LEN;
+   
     uint8_t  cccd_val_buf[BLE_CCCD_VALUE_LEN];
-
+		ble_gatts_value_t cccd_value;
+		cccd_value.len = BLE_CCCD_VALUE_LEN;
+		cccd_value.offset= 0;
+		cccd_value.p_value= cccd_val_buf;
     // Check the CCCD Value of DFU Control Point.
-    uint32_t err_code = sd_ble_gatts_value_get(p_dfu->dfu_ctrl_pt_handles.cccd_handle,
-                                               0,
-                                               &cccd_len,
-                                               cccd_val_buf);
+    uint32_t err_code = sd_ble_gatts_value_get(p_dfu->conn_handle, p_dfu->dfu_ctrl_pt_handles.cccd_handle,
+                                               &cccd_value);
     if (err_code != NRF_SUCCESS)
     {
         if (p_dfu->error_handler != NULL)

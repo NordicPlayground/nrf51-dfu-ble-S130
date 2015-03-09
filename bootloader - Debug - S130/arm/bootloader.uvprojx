@@ -622,11 +622,6 @@
           </GroupOption>
           <Files>
             <File>
-              <FileName>dfu_transport_ble.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_transport_ble.c</FilePath>
-            </File>
-            <File>
               <FileName>ble_conn_params.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_conn_params.c</FilePath>
@@ -640,6 +635,11 @@
               <FileName>ble_srv_common.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c</FilePath>
+            </File>
+            <File>
+              <FileName>dfu_transport_ble.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\dfu_transport_ble.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1286,11 +1286,6 @@
           </GroupOption>
           <Files>
             <File>
-              <FileName>dfu_transport_ble.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_transport_ble.c</FilePath>
-            </File>
-            <File>
               <FileName>ble_conn_params.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_conn_params.c</FilePath>
@@ -1304,6 +1299,11 @@
               <FileName>ble_srv_common.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c</FilePath>
+            </File>
+            <File>
+              <FileName>dfu_transport_ble.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\dfu_transport_ble.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1890,11 +1890,6 @@
           <GroupName>BLE Transport</GroupName>
           <Files>
             <File>
-              <FileName>dfu_transport_ble.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\Source\bootloader_dfu\dfu_transport_ble.c</FilePath>
-            </File>
-            <File>
               <FileName>ble_conn_params.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_conn_params.c</FilePath>
@@ -1908,6 +1903,11 @@
               <FileName>ble_srv_common.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c</FilePath>
+            </File>
+            <File>
+              <FileName>dfu_transport_ble.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\dfu_transport_ble.c</FilePath>
             </File>
           </Files>
         </Group>
